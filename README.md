@@ -1,55 +1,54 @@
 # Binance New Listing Telegram Bot
 
-这个项目包含一个Telegram机器人，用于监控Binance交易所的新币上市信息，并通过Telegram发送通知给订阅用户。
+This project includes a Telegram bot that monitors new cryptocurrency listings on the Binance exchange and sends notifications to subscribed users via Telegram.
 
-## 功能
+## Features
 
-- `/start`: 启动机器人并显示欢迎信息。
-- `/newlisting`: 订阅Binance新币上市通知。当检测到新币上市时，机器人会发送通知。
+- `/start`: Launches the bot and displays a welcome message.
+- `/newlisting`: Subscribes to notifications of new listings on Binance. When a new listing is detected, the bot sends out a notification.
 
-## 如何使用
+## How to Use
 
-1. 克隆仓库到本地。
-2. 安装所需的依赖。
-3. 在`config/config.yaml`中配置你的Telegram令牌和其他设置。
-4. 运行机器人。
+1. Clone the repository to your local machine.
+2. Install the required dependencies.
+3. Configure your Telegram token and other settings in `config/config.yaml`.
+4. Run the bot.
 
-## 安装步骤
+## Installation Steps
 
-确保你已经安装了Python 3.7或更高版本。
+Make sure you have Python 3.7 or higher installed.
 
-1. 克隆仓库：
+1. Clone the repository:
 
 ```bash
 git clone git@github.com:ruocuoguo23/telegram-trading-bot.git
 cd telegram-trading-bot
 ```
 
-
-2. 安装依赖：
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. 配置文件：
-创建config/config.yaml并填写你的设置。
-配置文件config.yaml应该包含以下内容：
+3. Configuration file:
+Create config/config.yaml and fill in your settings.
+The config.yaml file should contain the following:
 ```yaml
 telegram:
   token: "YOUR_TELEGRAM_BOT_TOKEN"
 ```
 
-将YOUR_TELEGRAM_BOT_TOKEN替换为你从Telegram BotFather获取的令牌。
+Replace YOUR_TELEGRAM_BOT_TOKEN with the token you obtained from Telegram's BotFather.
 
-4. 运行机器人：
+4. Run the bot:
 ```bash
 ./start.sh
 ```
 
-5. 贡献:
+4. Contributing:
+If you would like to contribute to this project, please:
 
-如果你想为这个项目贡献代码，请：
-Fork这个仓库。
-创建一个新的分支。
-提交你的更改。
-创建一个Pull Request。
+Fork the repository.
+Create a new branch.
+Submit your changes.
+Create a Pull Request.
