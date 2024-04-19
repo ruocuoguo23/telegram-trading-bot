@@ -21,32 +21,35 @@
 1. 克隆仓库：
 
 ```bash
-git clone https://github.com/your-github-username/binance-listing-telegram-bot.git
-cd binance-listing-telegram-bot
-安装依赖：
+git clone git@github.com:ruocuoguo23/telegram-trading-bot.git
+cd telegram-trading-bot
+```
+
+
+2. 安装依赖：
+```bash
 pip install -r requirements.txt
-配置你的config.yaml文件：
+```
+
+3. 配置文件：
 创建config/config.yaml并填写你的设置。
-
-运行机器人：
-./start.sh
-
-配置文件
 配置文件config.yaml应该包含以下内容：
-
+```yaml
 telegram:
   token: "YOUR_TELEGRAM_BOT_TOKEN"
+```
+
 将YOUR_TELEGRAM_BOT_TOKEN替换为你从Telegram BotFather获取的令牌。
 
-贡献
-如果你想为这个项目贡献代码，请：
+4. 运行机器人：
+```bash
+./start.sh
+```
 
+5. 贡献:
+
+如果你想为这个项目贡献代码，请：
 Fork这个仓库。
 创建一个新的分支。
 提交你的更改。
 创建一个Pull Request。
-许可证
-这个项目使用MIT许可证。详情请见LICENSE文件。
-
-免责声明
-使用这个机器人可能会受到市场风险和交易所API变更的影响。开发者不对由于使用这个机器人而造成的任何损失负责。
