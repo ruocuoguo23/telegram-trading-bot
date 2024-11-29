@@ -186,7 +186,7 @@ class BinanceListingChecker:
     def get_articles(script_data):
         json_data = json.loads(script_data.contents[0])
         app_state = json_data.get('appState', {})
-        articles = app_state.get('loader', {}).get('dataByRouteId', {}).get('d969', {}).get('catalogs', [])[0].get(
+        articles = app_state.get('loader', {}).get('dataByRouteId', {}).get('d9b2', {}).get('catalogs', [])[0].get(
             'articles', [])
         return articles
 

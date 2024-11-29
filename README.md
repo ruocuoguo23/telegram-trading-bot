@@ -20,35 +20,35 @@ Make sure you have Python 3.7 or higher installed.
 
 1. Clone the repository:
 
-```bash
-git clone git@github.com:ruocuoguo23/telegram-trading-bot.git
-cd telegram-trading-bot
-```
+    ```bash
+    git clone git@github.com:ruocuoguo23/telegram-trading-bot.git
+    cd telegram-trading-bot
+    ```
 
 2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. Configuration file:
 Create config/config.yaml and fill in your settings.
 The config.yaml file should contain the following:
-```yaml
-telegram:
-  token: "YOUR_TELEGRAM_BOT_TOKEN"
-```
+    ```yaml
+    telegram:
+      token: "YOUR_TELEGRAM_BOT_TOKEN"
+    ```
 
-Replace YOUR_TELEGRAM_BOT_TOKEN with the token you obtained from Telegram's BotFather.
+    Replace YOUR_TELEGRAM_BOT_TOKEN with the token you obtained from Telegram's BotFather.
 
 4. Run the bot:
-```bash
-./start.sh
-```
+    ```bash
+    ./start.sh
+    ```
 
-4. Contributing:
+5. Contributing:
 If you would like to contribute to this project, please:
 
-Fork the repository.
-Create a new branch.
-Submit your changes.
-Create a Pull Request.
+    Fork the repository.
+    Create a new branch.
+    Submit your changes.
+    Create a Pull Request.
